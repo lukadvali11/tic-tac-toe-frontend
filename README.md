@@ -1,16 +1,27 @@
-# React + Vite
+# Tic-Tac-Toe Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite frontend for the Tic-Tac-Toe game.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Node.js 18+
+- pnpm
 
-## React Compiler
+## Getting Started
+```bash
+pnpm install
+pnpm dev
+```
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The app runs at `http://localhost:5173` by default.
 
-## Expanding the ESLint configuration
+> Make sure the [backend](https://github.com/lukadvali11/tic-tac-toe-backend) is running before starting the frontend.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Build
+```bash
+pnpm build
+```
+
+## Related
+
+- [Backend](https://github.com/lukadvali11/tic-tac-toe-backend)
